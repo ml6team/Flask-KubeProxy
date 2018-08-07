@@ -11,6 +11,7 @@ setuptools.setup(
     description="Middleware to fix swagger behavior behind kubernetes proxy.",
     long_description=long_description,
     long_description_content_type="text/markdown",
+    url="https://github.com/ml6team/Flask-KubeProxy",
     packages=setuptools.find_packages(),
     classifiers=(
         "Programming Language :: Python :: 3",
