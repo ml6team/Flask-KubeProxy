@@ -8,7 +8,7 @@ class KubeProxy(object):
     Args:
         app: the WSGI application
     """
-    
+
     def __init__(self, app):
         self.app = app
 
