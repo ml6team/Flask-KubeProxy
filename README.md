@@ -43,7 +43,7 @@ app = Flask(__name__)
 app.wsgi_app = KubeProxy(app.wsgi_app)
 api = Api(app)
  
-@api.route("/")
+@api.route("/hello")
 def hello_world():
   return "Hello, world!"
   ```
