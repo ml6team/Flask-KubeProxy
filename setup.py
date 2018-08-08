@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="Flask-KubeProxy",
-    version="0.0.1",
+    version="0.1",
     author="Robbe Sneyders",
     author_email="robbe.sneyders@ml6.eu",
     description="Middleware to fix swagger behavior behind kubernetes proxy.",
